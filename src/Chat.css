@@ -97,7 +97,7 @@ p{
 }
 
 .chat_area{
-    height: calc(100% - 98px);
+    height: calc(100% - 108px);
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
@@ -147,13 +147,13 @@ p{
 
 .boy_area .chat_group{
     background-color: #fff;
-    width: 80%;
+    width: 77%;
     padding: 10px;
     border-radius: 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .boy_area .chat_group .MuiSvgIcon-root{
@@ -188,13 +188,14 @@ p{
 .MuiIconButton-root{
     color: #e5ddd5!important;
     background-color: #249a88!important;  
-    padding: 3px!important;
+    padding: 5px!important;
 }
 
 
 
 .MuiIconButton-root .MuiSvgIcon-root{
-    width: 62%;
+    width: 20px;
+    height: 20px;
 }
 
 .MuiSvgIcon-root
