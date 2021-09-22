@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/kapsechat/static/css/main.901f92ce.chunk.css",
+    "main.js": "/kapsechat/static/js/main.bc75c102.chunk.js",
+    "main.js.map": "/kapsechat/static/js/main.bc75c102.chunk.js.map",
+    "runtime-main.js": "/kapsechat/static/js/runtime-main.a36c0a19.js",
+    "runtime-main.js.map": "/kapsechat/static/js/runtime-main.a36c0a19.js.map",
+    "static/js/2.2a9ddb25.chunk.js": "/kapsechat/static/js/2.2a9ddb25.chunk.js",
+    "static/js/2.2a9ddb25.chunk.js.map": "/kapsechat/static/js/2.2a9ddb25.chunk.js.map",
+    "static/js/3.542b8f2b.chunk.js": "/kapsechat/static/js/3.542b8f2b.chunk.js",
+    "static/js/3.542b8f2b.chunk.js.map": "/kapsechat/static/js/3.542b8f2b.chunk.js.map",
+    "index.html": "/kapsechat/index.html",
+    "static/css/main.901f92ce.chunk.css.map": "/kapsechat/static/css/main.901f92ce.chunk.css.map",
+    "static/js/2.2a9ddb25.chunk.js.LICENSE.txt": "/kapsechat/static/js/2.2a9ddb25.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/kapsechat/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a36c0a19.js",
+    "static/js/2.2a9ddb25.chunk.js",
+    "static/css/main.901f92ce.chunk.css",
+    "static/js/main.bc75c102.chunk.js"
+  ]
+}
