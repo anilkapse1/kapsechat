@@ -2,6 +2,7 @@ import React, {useEffect, useState } from "react";
 import './Chat.css';
 import Data from "./Data";
 
+import Button from '@material-ui/core/Button';
 import SendIcon from '@material-ui/icons/Send';
 import IconButton from '@material-ui/core/IconButton';
 import VideocamIcon from '@material-ui/icons/Videocam';
@@ -73,7 +74,7 @@ const Chat=()=>{
       <div className="conversion items">
         <div className="receiver">
           <ArrowBackIcon/>
-          <img alt="girlpic" src={imgGirl} style={{width:'10%',margin:'0px 10px 0px 0px'}}/>
+          <img alt="girlpic" src={imgGirl} style={{width:'7%',margin:'0px 10px 0px 0px'}}/>
           <p>Mitali Godkar<span>online</span></p>
           <VideocamIcon/>
           <CallIcon/>
@@ -108,9 +109,11 @@ const Chat=()=>{
             <AttachFileIcon/>
             <PhotoCameraIcon/>
           </div>
-          <IconButton onClick={mitaliTalk} aria-label="delete">
+          {/* <SendIcon onClick={mitaliTalk} /> */}
+          <IconButton onClick={mitaliTalk} aria-label="delete" >
             <SendIcon/>
           </IconButton>
+
         </div>  
       </div>
 

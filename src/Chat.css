@@ -4,22 +4,22 @@
     justify-content: space-evenly;
     flex-direction: row;
     align-items: center;
-    height: 90vh;
-    margin: 5vh;
+    height: 100vh;
     background-color: darkslategrey;
 }
 
 
 .conversion{
-    height: 90%;
+    height: 80%;
     border-radius: 30px;
     overflow: hidden;
     background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
     background-repeat: no-repeat;
     background-position: center;
-    width: 380px;
+    /* width: 380px; */
+    width: 20vw;
     background-size: cover;
-    border:10px solid;
+    border:7px solid #313131;
 }
 
 .girl{
@@ -33,7 +33,7 @@
 p{
     margin: 0px;
     text-align: left;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 21px;
 }
 
@@ -61,14 +61,14 @@ p{
     position: relative;
     max-width: 80%;
     position: relative;
-    min-width: 17%;
+    min-width: 19%;
 }
 
 .girl span, .boy span{
     font-size: 9px;
     color: gray;
     position: absolute;
-    right: 22px;
+    right: 10px;
     bottom: -3px;
 }
 
@@ -97,7 +97,7 @@ p{
 }
 
 .chat_area{
-    height: calc(100% - 125px);
+    height: calc(100% - 98px);
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
@@ -111,7 +111,7 @@ p{
 
 .receiver{
     background-color: #249a88;
-    padding: 13px 10px;
+    padding: 6px 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -122,6 +122,7 @@ p{
     color:#fff;
     font-weight: 600;
     margin-right: auto;
+    line-height: 1.4;
 }
 
 .receiver p span{
@@ -130,8 +131,9 @@ p{
 }
 
 .receiver .MuiSvgIcon-root{
-   margin: 0px 10px; 
-   color:#fff;
+    margin: 0px 5px;
+    color: #fff;
+    width: 7%;
 }
 
 .boy_area{
@@ -139,7 +141,8 @@ p{
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 6px 5px;
 }
 
 .boy_area .chat_group{
@@ -155,10 +158,14 @@ p{
 
 .boy_area .chat_group .MuiSvgIcon-root{
     color:#908b85;
+    width: 9%;
+    height: 9%;
+    margin: 0px 5px;
 }
 
 .boy_area input{
     border: none;
+    width: 80%;
 }
 
 .girl_area input{
@@ -181,8 +188,16 @@ p{
 .MuiIconButton-root{
     color: #e5ddd5!important;
     background-color: #249a88!important;  
+    padding: 3px!important;
 }
 
+
+
+.MuiIconButton-root .MuiSvgIcon-root{
+    width: 62%;
+}
+
+.MuiSvgIcon-root
 .MuiIconButton-root:hover{
     background-color: #249a88!important;
     color: #e5ddd5; 
